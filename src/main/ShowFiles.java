@@ -7,7 +7,7 @@ public class ShowFiles {
 	public static void showFiles() {
 		
 	        if (LockedMe.FOLDER_NAME.list().length==0)
-	        	System.out.println("Folder not found in the director: " +LockedMe.FOLDER_NAME);
+	        	System.out.println("File not found in the director: " +LockedMe.FOLDER_NAME);
 	        else {
 	            String[] list = LockedMe.FOLDER_NAME.list();
 	            System.out.println("The files in the director"+ LockedMe.FOLDER_NAME +" are :");

@@ -15,7 +15,7 @@ public class LockedMe {
 		System.out.println("DIRECTORY : " + FOLDER_NAME.getAbsolutePath());
 	}
 
-	private static final String WELCOME_LOCKED_ME = "*********** Welcome to LockedMe.com @2021-Sumeet Yajnik***********";
+	private static final String WELCOME_LOCKED_ME = "*********** Welcome to LockedMe.com @2021-Sumeet Yajnik ***********";
 
 	private static final String MAIN_MENU = "\nMain Menu - Select any of the following: \n"
 			+ "1 -> Show files in the directory\n" + "2 -> Add, Delete, Search, GoBack Menu\n" + "3 -> Exit Site";
@@ -50,7 +50,7 @@ public class LockedMe {
 				showMainMenu();
 			}
 		} catch (Exception e) {
-			System.out.println("Folder not found in the director: " +LockedMe.FOLDER_NAME);
+			System.out.println("File not found in the director: " +LockedMe.FOLDER_NAME);
 			System.out.println("Please proceed with enter 1, 2 or 3");
 			showMainMenu();
 		}
